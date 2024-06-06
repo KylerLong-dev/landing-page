@@ -7,3 +7,6 @@ a quote, and a call to action.
 
 Layout primarily achieved using flexbox properties to ensure all items
 grow/shrink according to the user's viewport size. 
+
+Image References: 
+HTML5, CSS, JavaScript, and Git Icons from Wikimedia 
