@@ -81,6 +81,7 @@ h2 {
 button {
     background-color: #3882F6;
     color: #e5e7eb;
+    font-weight: bold;
     border: none;
     border-radius: 5px;
     max-width: 150px;
@@ -138,4 +139,39 @@ blockquote {
     font-size: 36px;
     text-align: right;
     max-width: 850px;
+}
+
+.action {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 80px;
+}
+
+.action-wrap {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+    background-color: #3882F6;
+    border-radius: 5px;
+    padding: 50px;
+    width: 800px;
+    height: 50px;
+}
+
+h4 {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.action-text {
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+    color:#e5e7eb;
+}
+
+.contact-button {
+    border: 2px solid #E5E7EB;
 }
