@@ -11,13 +11,6 @@ body {
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
-/*
-.flex {
-    display: flex;
-    flex-wrap: wrap;
-}
-*/
-
 .header-wrap {
     display: flex;
     justify-content: space-between;
@@ -93,11 +86,42 @@ button {
     max-width: 150px;
     padding: 10px;
     cursor: pointer;
-    transition: #3882F6 0.3s;
+    transition: background-color 0.2s;
+}
+
+button:hover {
+    background-color: #0145b3;
+    color: white;
+}
+
+.center-skills {
+    display: flex;
+    justify-content: center;
+    padding: 40px;
+}
+
+h3 {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+}
+
+.info-wrap {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    margin-bottom: 80px;
+}
+
+.img-wrap {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    align-items: center;
 }
 
 .icon {
-    max-width: 200px;
-    max-height: 200px;
+    max-width: 170px;
+    max-height: 170px;
 }
 
